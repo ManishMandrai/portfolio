@@ -44,7 +44,7 @@ const About = () => {
               <IoArrowForward className="ml-2" size={20} />
             </a>
             <a
-              href="src/assets/Manish Kumar.pdf"
+              href="https://drive.google.com/file/d/1QyvxkOBBjXV-gnxEHYaGYXWKlBr5Eqgd/view?usp=sharing"
               download
               className="flex items-center bg-gradient-to-r from-gray-800 to-gray-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
             >

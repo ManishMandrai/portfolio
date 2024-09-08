@@ -6,18 +6,18 @@ import { DiNodejsSmall } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 
 const skills = [
-  { icon: <FaHtml5 color="#E34F26" size={50} />, name: 'HTML5' },
-  { icon: <FaCss3 color="#1572B6" size={50} />, name: 'CSS3' },
+  { icon: <SiCplusplus color="#00599C" size={50} />, name: 'C++' },// C++ icon
   { icon: <FaJs color="#F7DF1E" size={50} />, name: 'JavaScript' },
+  { icon: <SiMongodb color="#47A248" size={50} />, name: 'MongoDB' }, 
+  { icon: <IoLogoJavascript color="#F7DF1E" size={50} />, name: 'Express.js' }, // Use a custom or closest match icon
   { icon: <FaReact color="#61DAFB" size={50} />, name: 'React.js' },
   { icon: <DiNodejsSmall color="#8CC84B" size={50} />, name: 'Node.js' },
-  { icon: <SiMongodb color="#47A248" size={50} />, name: 'MongoDB' }, 
-  { icon: <FaBootstrap color="#7952B3" size={50} />, name: 'Bootstrap' },
-  { icon: <FaAngular color="#DD0031" size={50} />, name: 'Angular' },
-  { icon: <SiFirebase color="#FFCA28" size={50} />, name: 'Firebase' },
-  { icon: <IoLogoJavascript color="#F7DF1E" size={50} />, name: 'Express.js' }, // Use a custom or closest match icon
   { icon: <SiRedux color="#764ABC" size={50} />, name: 'Redux' }, // Redux icon
-  { icon: <SiCplusplus color="#00599C" size={50} />, name: 'C++' } // C++ icon
+  { icon: <FaHtml5 color="#E34F26" size={50} />, name: 'HTML5' },
+  { icon: <FaCss3 color="#1572B6" size={50} />, name: 'CSS3' },
+  { icon: <FaAngular color="#DD0031" size={50} />, name: 'Angular' },
+  { icon: <FaBootstrap color="#7952B3" size={50} />, name: 'Bootstrap' },
+  { icon: <SiFirebase color="#FFCA28" size={50} />, name: 'Firebase' }
 ];
 
 const Experience = () => {
