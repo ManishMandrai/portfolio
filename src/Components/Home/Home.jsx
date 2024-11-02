@@ -27,7 +27,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer text-gray-900 hover:text-blue-600 transition-colors duration-300"
+              className="cursor-pointer text-gray-900 hover:text-gray-900 transition-colors duration-300"
               href="https://github.com/ManishMandrai"
             >
               <FaGithub className="w-8 h-8 md:w-10 md:h-10" />
@@ -35,7 +35,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer text-gray-900 hover:text-blue-600 transition-colors duration-300"
+              className="cursor-pointer text-gray-900 hover:text-blue-500 transition-colors duration-300" // Twitter blue
               href="https://x.com/ManishKumar3114"
             >
               <FaXTwitter className="w-8 h-8 md:w-10 md:h-10" />
@@ -43,7 +43,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer text-gray-900 hover:text-blue-600 transition-colors duration-300"
+              className="cursor-pointer text-gray-900 hover:text-blue-700 transition-colors duration-300" // LinkedIn blue
               href="https://www.linkedin.com/in/manish-kumar-mandrai/"
             >
               <CiLinkedin className="w-8 h-8 md:w-10 md:h-10" />
@@ -51,7 +51,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer text-gray-900 hover:text-blue-600 transition-colors duration-300"
+              className="cursor-pointer text-gray-900 hover:text-pink-500 transition-colors duration-300" // Instagram pink
               href="https://www.instagram.com/manish._.mandrai/"
             >
               <FaInstagram className="w-8 h-8 md:w-10 md:h-10" />
