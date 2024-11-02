@@ -1,6 +1,6 @@
 import React from "react";
 import AboutImg from "../../assets/developer.png"; // Ensure you have a suitable image
-import { IoArrowForward, IoDownload } from "react-icons/io5"; // Import IoDownload icon
+import { IoArrowForward } from "react-icons/io5"; // Import IoArrowForward icon
 
 const About = () => {
   return (
@@ -36,14 +36,6 @@ const About = () => {
             >
               View My Work
               <IoArrowForward className="ml-2" size={20} />
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1QyvxkOBBjXV-gnxEHYaGYXWKlBr5Eqgd/view?usp=sharing"
-              download
-              className="flex items-center bg-gradient-to-r from-gray-800 to-gray-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
-            >
-              Download Resume
-              <IoDownload className="ml-2" size={20} /> {/* Change icon here */}
             </a>
           </div>
         </div>

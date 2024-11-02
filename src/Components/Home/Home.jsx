@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen -mt-20 p-10 md:p-20 -mt-15">
+    <div className="flex flex-col justify-center items-center min-h-screen  bg-gray-100 to-white p-10 md:p-20">
       <div className="flex flex-col items-center">
         <img
           className="rounded-full shadow-lg w-40 md:w-60 mb-8 hover:scale-105 transition-transform duration-300"
@@ -22,6 +22,22 @@ const Home = () => {
           <h3 className="text-2xl md:text-3xl text-gray-700 font-medium mt-2">
             Full Stack Web Developer
           </h3>
+
+          <p className="text-lg md:text-xl text-gray-600 mt-4 max-w-2xl">
+            I'm passionate about creating interactive applications and experiences on the web. With expertise in the MERN stack.
+          </p>
+
+          <div className="mt-6">
+            <h4 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">Technical Proficiencies:</h4>
+            <ul className="flex flex-wrap justify-center gap-4 text-gray-700">
+              <li className="bg-gray-200 rounded-full px-4 py-2">JavaScript</li>
+              <li className="bg-gray-200 rounded-full px-4 py-2">React</li>
+              <li className="bg-gray-200 rounded-full px-4 py-2">Node.js</li>
+              <li className="bg-gray-200 rounded-full px-4 py-2">MongoDB</li>
+              <li className="bg-gray-200 rounded-full px-4 py-2">Express.js</li>
+              <li className="bg-gray-200 rounded-full px-4 py-2">HTML & CSS</li>
+            </ul>
+          </div>
 
           <div className="flex justify-center mt-10 space-x-6">
             <a
