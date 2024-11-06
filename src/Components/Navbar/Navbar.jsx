@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center container mx-auto text-black px-6 py-4 md:px-20 bg-gray-100 shadow-lg rounded-lg">
+    <nav className="flex justify-between items-center container mx-auto text-black px-6 py-4 md:px-20 bg-gray-200 shadow-lg rounded-lg">
       <span className="text-3xl font-bold tracking-wide text-gray-800">Manish Kumar</span>
 
       <ul
