@@ -80,8 +80,8 @@ const Projects = () => {
             main="Developed a clone of Google AI Gemini using MERN stack."
             imageUrl={projectImages.gemini}
             showDemo={true}
-            demoLink="https://manish-shoping-app.vercel.app/"
-            sourceLink="https://github.com/ManishMandrai/Full_Stack_Ecommerce"
+            demoLink="https://gemini-clone-ashen-three.vercel.app/"
+            sourceLink="https://github.com/ManishMandrai/gemini-clone"
           />
 
           <ProjectCard
