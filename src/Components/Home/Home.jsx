@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/manish1.png";
+import avatarImg from "../../assets/20241222_122937.png";
 import TextChange from "../TextChange";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
